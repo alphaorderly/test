@@ -1,3 +1,4 @@
+# filepath: c:\Users\ilov1\Desktop\새 폴더\fib.py
 def fibonacci(n: int) -> int:
     """Return the nth Fibonacci number."""
     if n <= 0:

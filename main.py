@@ -1,8 +1,6 @@
-# Add script directory to sys.path to allow importing calc_fib from the same folder
 import os, sys
 sys.path.insert(0, os.path.dirname(__file__))
-
-from calc_fib import fibonacci
+from fib import fibonacci
 
 def main():
     n = 10
